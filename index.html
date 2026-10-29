@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Vanshika! 🌷</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@400;500&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+<div id="intro">
+  <button id="skip" aria-label="Skip intro">Skip ›</button>
+  <h1 class="hand" style="font-size:2.4rem">Hey Vanshika! 🌷</h1>
+  <p>Someone has made a little birthday world just for you…</p>
+  <div class="env" id="env"><div class="flap"></div><div class="t" data-tulip="#F4A7BB"></div></div>
+  <button id="openBtn">Open Your Birthday Surprise 💌</button>
+  <div class="sig">Made especially for you by Sumit ❤️</div>
+</div>
+
+<main id="main">
+<section id="hero">
+  <span class="float" style="left:6%;top:14%">🎈</span><span class="float" style="right:8%;top:20%;animation-delay:-2s">🎈</span><span class="float" style="left:12%;bottom:12%">✨</span><span class="float" style="right:10%;bottom:16%;animation-delay:-1s">🎀</span>
+  <div class="wrap">
+    <div class="frame"><div class="ph" data-hero><span>Add Vanshika’s hero photo<br>(see PHOTOS in the script)</span></div><div class="tp a" data-tulip="#F4A7BB"></div><div class="tp b" data-tulip="#DED6F5"></div></div>
+    <h1 class="reveal">Happy Birthday, Vanshika! 🎂</h1>
+    <p class="reveal" style="max-width:560px;margin:0 auto 18px">Today is all about the girl who loves tulips, snowy mountains, beautiful adventures, shopping, and all the sweetest little things.</p>
+    <a class="btn" href="#balloons" style="display:inline-block;text-decoration:none;line-height:22px">Explore Your Birthday World</a>
+    <a class="btn" href="#letter" style="display:inline-block;text-decoration:none;line-height:22px;background:#fff;color:var(--ink)">Open Your Special Letter</a>
+  </div>
+</section>
+
+<section id="balloons"><div class="wrap">
+  <h2>Five Little Balloons, Five Little Surprises! 🎈</h2>
+  <p>Pop each balloon to discover a little something made just for you.</p>
+  <div class="bfield" id="bfield"></div>
+  <p><strong id="count">0 of 5 surprises discovered.</strong></p>
+  <div id="bcard" aria-live="polite"></div>
+  <button class="alt" id="replay">Replay the balloons 🔄</button>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+  <h2>Warning: Too Much Cuteness Ahead! 🩷</h2>
+  <p>A little collection of pictures that deserve their own little corner of happiness.</p>
+  <div class="mason" id="mason"></div>
+  <label class="btn alt" style="display:inline-block;line-height:22px;background:#fff;color:var(--ink)">HAPPY BIRTHDAY DAER <input type="file" id="pick" accept="image/*" multiple hidden></label>
+</div></section>
+
+<section id="tulips"><div class="wrap">
+  <h2>For the Girl Who Loves Tulips 🌷</h2>
+  <div class="garden bud" id="garden"></div>
+  <p class="reveal" style="max-width:560px;margin:auto">If I could gift you a garden, I’d fill it with your favourite tulips and make sure there was always a flower waiting to brighten your day.</p>
+  <button id="bloom">Let the Flowers Bloom</button>
+</div></section>
+
+<section id="snow"><div class="wrap">
+  <h2>For the Girl Who Dreams of Mountains and Snow ❄️</h2>
+  <div class="glass"><div style="font-size:2.4rem;animation:bob 3s infinite">✈️</div>
+  <p>May life take you to the mountains you’ve always wanted to see, places where the air feels fresh, the snow sparkles, and every moment feels like a beautiful dream.</p>
+  <button id="snowBtn" style="background:linear-gradient(135deg,#7fb6dc,#5a8fb6);box-shadow:0 8px 22px #5a8fb655">Explore the Snowy World</button>
+  <p id="snowMsg" class="hid hand">One day, may you stand surrounded by snowy mountains, look around, smile, and think: this was worth dreaming about. 🏔️</p></div>
+</div>
+<svg class="mt" viewBox="0 0 800 240" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,240 0,150 120,60 200,130 320,30 460,140 560,80 680,150 800,90 800,240" fill="#c9def0"/><polygon points="320,30 285,75 320,62 350,80" fill="#fff"/><polygon points="120,60 95,95 120,85 145,100" fill="#fff"/><polygon points="0,240 0,190 150,130 300,200 450,150 620,210 800,160 800,240" fill="#9fbfd9"/><g fill="#5b7a8a"><polygon points="60,240 80,190 100,240"/><polygon points="500,240 525,180 550,240"/><polygon points="700,240 720,195 740,240"/></g></svg>
+</section>
+
+<section id="sweet"><div class="wrap">
+  <h2>A Sweet Little Surprise for My Sweet Bestie 🍮</h2>
+  <button id="rasma" aria-label="Tap the rasmalai" style="background:none;box-shadow:none;padding:0;min-height:0">
+  <svg viewBox="0 0 240 150" width="240" style="max-width:80vw"><ellipse cx="120" cy="115" rx="110" ry="26" fill="#fff" stroke="#E9CC91" stroke-width="4"/><ellipse cx="120" cy="108" rx="85" ry="17" fill="#FFF1B8"/><ellipse cx="85" cy="90" rx="38" ry="20" fill="#fffaf0"/><ellipse cx="150" cy="88" rx="38" ry="20" fill="#fffaf0"/><g fill="#A8B89A"><circle cx="85" cy="82" r="4"/><circle cx="92" cy="86" r="3"/><circle cx="150" cy="80" r="4"/><circle cx="158" cy="85" r="3"/></g><path d="M60 108q60 14 120 0" stroke="#E9CC91" fill="none" stroke-width="3"/></svg></button>
+  <p style="opacity:.7">Tap the rasmalai</p>
+  <div id="sweetMsg" class="card hid"><p>Life should always have a little sweetness, a lot of happiness, and maybe an extra serving of your favourite rasmalai. You deserve it! 💛</p></div>
+  <button id="extra" style="background:linear-gradient(135deg,#f3c86b,#e9a94a);box-shadow:0 8px 22px #e9cc9188">Add Some Extra Sweetness</button>
+  <p id="extraMsg" class="hid hand">Wishing you a birthday as sweet as your smile! ✨</p>
+</div></section>
+
+<section id="shop"><div class="wrap">
+  <h2>A Little Shopping Spree for the Birthday Girl! 🛍️</h2>
+  <p style="max-width:560px;margin:auto">May your birthday bring you beautiful surprises, lovely outfits, happy moments, and every little thing that makes you smile.</p>
+  <p class="hand">Tap a bag to open it ✨</p>
+  <div class="gifts" id="gifts"></div>
+  <div id="giftMsg" class="card" style="min-height:70px" aria-live="polite"></div>
+</div></section>
+
+<section id="letter"><div class="wrap">
+  <h2>A Letter From Sumit to Vanshika 💌</h2>
+  <button id="lbtn" style="font-size:1.1rem">✉️ Open the letter</button>
+  <div class="paper" id="paper" contenteditable="true" spellcheck="false" aria-label="Birthday letter (editable)"></div>
+</div></section>
+
+<section id="cake"><div class="wrap">
+  <h2>Now Make a Wish, Birthday Girl! 🎂</h2>
+  <p>Close your eyes, make a wish, and blow out the candle.</p>
+  <svg id="cakeSvg" viewBox="0 0 260 240" width="280" style="max-width:80vw" aria-label="Birthday cake with candle"><ellipse cx="130" cy="222" rx="115" ry="12" fill="#0002"/><rect x="40" y="150" width="180" height="70" rx="14" fill="#F9E2E8"/><rect x="60" y="100" width="140" height="56" rx="12" fill="#F4A7BB"/><path d="M40 160q15 20 30 0t30 0 30 0 30 0 30 0 30 0v-8H40z" fill="#fff"/><path d="M60 110q12 18 24 0t24 0 24 0 24 0 22 0v-8H60z" fill="#fff"/><rect x="124" y="62" width="12" height="42" rx="3" fill="#DED6F5"/><path class="flame" d="M130 30q16 20 0 34q-16-14 0-34z" fill="#ffb347"/><path class="flame" d="M130 42q8 10 0 20q-8-8 0-20z" fill="#fff3b0"/><path class="smoke" d="M130 56q-12-14 0-26t0-24" stroke="#999" fill="none" stroke-width="3" opacity=".6"/><g fill="#A8B89A"><circle cx="90" cy="185" r="6"/><circle cx="130" cy="188" r="6"/><circle cx="170" cy="185" r="6"/></g><g fill="#E9CC91"><circle cx="70" cy="135" r="3"/><circle cx="130" cy="135" r="3"/><circle cx="190" cy="135" r="3"/></g></svg>
+  <div><button id="mic">🎤 Use the microphone</button><button id="blow" class="alt">Blow Out the Candle</button></div>
+  <p id="micNote" style="min-height:1.5em;opacity:.7"></p>
+  <div id="wishMsg" class="card hid"><p class="hand" style="margin:0">May all your beautiful wishes find their way to bloom. 🌷</p></div>
+  <button id="relight" class="alt hid">Relight the candle 🔥</button>
+</div></section>
+
+<section id="final"><div class="wrap">
+  <div class="deco" aria-hidden="true">🎈 🛍️ 🍮 🎂 🏔️ 🎈</div>
+  <div class="garden" id="garden2" style="height:130px"></div>
+  <h1 class="reveal">Happy Birthday, Vanshika! ❤️</h1>
+  <p class="reveal" style="max-width:600px;margin:0 auto 16px">May your life bloom like tulips, your dreams take you to beautiful mountains, your days be filled with sweetness, and your heart always have reasons to smile.</p>
+  <p class="reveal" style="max-width:600px;margin:0 auto 16px">Thank you for being my best friend since Class 10. Here’s to more memories, more adventures, and many more birthdays!</p>
+  <p class="hand reveal">With love and best wishes,<br>Sumit 🌷</p>
+  <button id="again">Experience Your Birthday Again</button>
+</div></section>
+</main>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer"><div id="lbimg"></div><p class="hand" id="lbcap"></p><div class="nav"><button class="alt" id="prev" aria-label="Previous photo">‹</button><button class="alt" id="close">Close ✕</button><button class="alt" id="next" aria-label="Next photo">›</button></div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvas-confetti/1.9.3/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body></html>
